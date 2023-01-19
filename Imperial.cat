@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1c5b-54fa-da1b-9239" name="Imperial" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="4692-f261-c166-3dd9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="66bc-bbbe-7450-db2f" name="Wolfbane" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="1086-0c60-21ea-02be" name="To the Last Warrior" hidden="false" targetId="2dfd-7171-8a20-38ba" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fb43-917f-f217-0372" name="Squad" hidden="false" targetId="782e-31fb-f270-f003" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ed79-9d55-2ad0-a161" name="Commando" hidden="false" collective="false" import="true" type="model">
+          <infoLinks>
+            <infoLink id="aaed-2ae7-89bd-8396" name="Character - Wolfbane Commando" hidden="false" targetId="b596-3556-0405-c5cc" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="7893-cf20-c3c3-7b45" name="Squad Soldier" hidden="false" targetId="ea04-b947-9cb3-9fd7" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="85dd-dede-bacc-211b" name="Type - Imperial Human Regular " hidden="false" collective="false" import="true" targetId="b2c8-631d-2b83-fd13" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="0227-2a6e-130c-034c" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5793-cd87-7254-563e" name="Chieftain" hidden="false" collective="false" import="true" type="model">
+          <infoLinks>
+            <infoLink id="32bc-76bd-b0c9-5778" name="Wolfbane Chieftain" hidden="false" targetId="c7cf-ea96-8b28-6361" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="72a2-149c-ae9f-e722" name="Squad Leader" hidden="false" targetId="41ca-86a2-9c9a-7455" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="2300-185e-0d7c-f2e6" name="Weapon - Claymore" hidden="false" collective="false" import="true" targetId="d349-541e-0193-265f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="107e-139a-b5c8-0e4f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba6b-f789-1538-0013" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="cd01-9189-f925-fb53" name="Character Equipment" hidden="false" collective="false" import="true" targetId="4479-41ad-26d3-7ae3" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="0227-2a6e-130c-034c" value="29.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9fb5-0ccf-9016-e116" name="Commando Heavy Weapon" hidden="false" collective="false" import="true" type="model">
+          <infoLinks>
+            <infoLink id="05a4-555e-fcb5-9739" name="Character - Wolfbane Commando" hidden="false" targetId="b596-3556-0405-c5cc" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="4b64-903e-efa3-d2d5" name="Squad Heavy Weapon" hidden="false" targetId="f8c1-52a9-c81e-0328" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="35fd-0a1a-0238-ef89" name="Type - Imperial Human Specialist " hidden="false" collective="false" import="true" targetId="57d2-5629-f723-0277" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="0227-2a6e-130c-034c" value="29.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a21-60a8-f10e-b3c5" name="Regular" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="d302-fe6e-c459-e98b" name="Regular Squad" hidden="false">
+          <description>Up to 2 Troopers with Heavy Weapon</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3ac5-4c34-092e-c64a" name="Squad" hidden="false" targetId="782e-31fb-f270-f003" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="054e-7dd3-34c0-156f" name="Trooper" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="0576-bd7c-4ae7-be21" name="Character - Regular Trooper" hidden="false" targetId="3a6c-2051-8a7a-5f4c" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="94c9-2c02-2b63-25b0" name="Squad Soldier" hidden="false" targetId="ea04-b947-9cb3-9fd7" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="3b32-8108-392e-d4f7" name="Type - Imperial Human Regular " hidden="false" collective="false" import="true" targetId="b2c8-631d-2b83-fd13" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="0227-2a6e-130c-034c" value="11.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="07bb-11a1-945a-932a" name="Tropper Heavy Weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="b516-bdd8-0b1b-e167" name="Character - Regular Trooper" hidden="false" targetId="3a6c-2051-8a7a-5f4c" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="ff69-895e-70ca-1d3b" name="Squad Heavy Weapon" hidden="false" targetId="f8c1-52a9-c81e-0328" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="d3bc-6282-866a-0c69" name="Type - Imperial Human Specialist " hidden="false" collective="false" import="true" targetId="57d2-5629-f723-0277" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="0227-2a6e-130c-034c" value="11.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2a57-14ce-71c9-7119" name="Sergeant" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="3795-86e9-ea40-a6c7" name="Character - Regular Sergeant" hidden="false" targetId="122a-b499-d436-c68d" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="803b-b8e7-9801-bc90" name="Squad Leader" hidden="false" targetId="41ca-86a2-9c9a-7455" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="4b69-8c01-7a77-0de8" name="Type - Human Leader Imperial" hidden="false" collective="false" import="true" targetId="67a6-23a2-b671-6ac5" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="0227-2a6e-130c-034c" value="17.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d286-5ac3-89f8-203b" name="Regular Captain" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="4935-fd3c-6eca-878e" name="Character - Regular Captain" hidden="false" targetId="ef0d-a91a-0391-54d3" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e1fe-c8bd-f000-b3d3" name="New CategoryLink" hidden="false" targetId="8e64-f060-1634-59d7" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e774-771b-4c95-714e" name="Type - Imperial Human Heroic " hidden="false" collective="false" import="true" targetId="5e37-9b74-b64d-3e63" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fda8-4b87-f261-357e" name="Wolfbane Hero" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="4ca5-3beb-2c93-a599" name="To the Last Warrior" hidden="false" targetId="2dfd-7171-8a20-38ba" type="rule"/>
+        <infoLink id="2b4e-2e81-14d2-3330" name="Character - Wolfban Hero" hidden="false" targetId="ff35-623e-babc-a755" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c1a2-4053-5a3a-9428" name="New CategoryLink" hidden="false" targetId="8e64-f060-1634-59d7" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="23cf-6b29-1770-9958" name="Imperial Type - Human Heroic " hidden="false" collective="false" import="true" targetId="5e37-9b74-b64d-3e63" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e6ca-6f89-d20d-ebec" name="Blood Beret" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="1a0f-3197-3a94-5fc6" name="Jungle Training" hidden="false" targetId="1d1d-1fd7-ef17-49c9" type="rule"/>
+        <infoLink id="5f60-ccc6-21e2-9902" name="To the Last Warrior" hidden="false" targetId="2dfd-7171-8a20-38ba" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="74ee-7281-1e86-12cf" name="New CategoryLink" hidden="false" targetId="782e-31fb-f270-f003" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0ee4-78d8-651b-5ddb" name="Soldier" hidden="false" collective="false" import="true" type="model">
+          <infoLinks>
+            <infoLink id="401c-57e2-fd9f-5c22" name="Character - Blood Beret" hidden="false" targetId="88cf-c435-3ec6-ea03" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="a73f-83d3-13db-392c" name="Squad Soldier" hidden="false" targetId="ea04-b947-9cb3-9fd7" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="33ac-ee4b-88d7-228e" name="Type - Imperial Human Regular " hidden="false" collective="false" import="true" targetId="b2c8-631d-2b83-fd13" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="0227-2a6e-130c-034c" value="22.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7ddc-eca4-6989-22f9" name="Soldier Heavy" hidden="false" collective="false" import="true" type="model">
+          <infoLinks>
+            <infoLink id="9d37-cdb7-0136-b305" name="Character - Blood Beret" hidden="false" targetId="88cf-c435-3ec6-ea03" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="d58e-2f15-344d-5535" name="Squad Heavy Weapon" hidden="false" targetId="f8c1-52a9-c81e-0328" primary="false"/>
+            <categoryLink id="82de-01e8-44d5-dfe0" name="Squad Heavy Weapon" hidden="false" targetId="f8c1-52a9-c81e-0328" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="0074-6297-b34a-b437" name="Type - Imperial Human Specialist " hidden="false" collective="false" import="true" targetId="57d2-5629-f723-0277" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="0227-2a6e-130c-034c" value="22.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="da76-4bb7-a044-1bbc" name="Sergeant" hidden="false" collective="false" import="true" type="model">
+          <infoLinks>
+            <infoLink id="ffc1-95a8-46a9-2654" name="Character - Blood Beret Sergeant" hidden="false" targetId="5dde-9cb6-3752-38d0" type="profile"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="ca64-0073-ea1b-f709" name="Squad Leader" hidden="false" targetId="41ca-86a2-9c9a-7455" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="df2a-c87d-c111-20c0" name="Type - Human Leader Imperial" hidden="false" collective="false" import="true" targetId="67a6-23a2-b671-6ac5" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Points" typeId="0227-2a6e-130c-034c" value="30.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e2b9-e403-d335-33f8" name="Blood Beret Captain" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="ccdf-fe15-be1e-b941" name="Jungle Training" hidden="false" targetId="1d1d-1fd7-ef17-49c9" type="rule"/>
+        <infoLink id="47eb-a0cf-2241-45ad" name="To the Last Warrior" hidden="false" targetId="2dfd-7171-8a20-38ba" type="rule"/>
+        <infoLink id="8edd-7696-1798-8197" name="Character - Blood Beret Captain" hidden="false" targetId="baea-c9f0-1484-7473" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="83eb-80cd-33b0-8ff8" name="New CategoryLink" hidden="false" targetId="8e64-f060-1634-59d7" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ccbf-66f0-4ea5-8079" name="Imperial Type - Human Heroic " hidden="false" collective="false" import="true" targetId="5e37-9b74-b64d-3e63" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="50f1-6e6f-0c39-5f0a" name="Hedgehog Necromower" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="c3bc-2dfe-c99e-0c05" name="Character - Hedghehog Necromower" hidden="false" targetId="4e22-f77a-9a0f-8cf9" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8e32-3ebd-33cd-d412" name="New CategoryLink" hidden="false" targetId="8e64-f060-1634-59d7" primary="true"/>
+        <categoryLink id="6588-b2ec-7973-de8e" name="Light Vehicle" hidden="false" targetId="cc1c-9fc4-5a6d-1cec" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="821f-ee67-b7d7-1ba8" name="Weapon - Charger" hidden="false" collective="false" import="true" targetId="a602-11a2-b355-8a58" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0227-2a6e-130c-034c" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="623c-0758-ce5a-2362" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c074-bac6-b35a-040c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6932-99da-c8d0-882b" name="Rams Air Cavalry" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="d042-6db4-8a06-791d" name="Twin Barracudas" hidden="false">
+          <description>Airborne movement 10inch.
+Fumble on fire causes death and crash.
+On crash both player roll 1D20, winner moves Barracuda 10inch from original position. The explosion DAM 15(x4).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8107-5bc9-5991-d0f4" name="Character - Rams Air Cavalry" hidden="false" targetId="465f-4991-beab-54b8" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="40ea-a48f-272d-1453" name="New CategoryLink" hidden="false" targetId="8e64-f060-1634-59d7" primary="true"/>
+        <categoryLink id="ca0a-9e2c-1775-9e89" name="Flyer" hidden="false" targetId="5b0e-db22-f253-dee2" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4a12-e354-0826-f8aa" name="Weapon - Southpaw" hidden="false" collective="false" import="true" targetId="7af8-314d-037f-ae22" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0227-2a6e-130c-034c" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f37-52e0-fc4c-d0ad" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee59-570e-0785-3521" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <rules>
+    <rule id="5fa7-2494-c497-c192" name="Seize the Initiative" hidden="false">
+      <description>Add 2 when rolling for initiative.</description>
+    </rule>
+  </rules>
+  <sharedSelectionEntries>
+    <selectionEntry id="e75b-6424-bf42-6c9d" name="Weapon - Agressor" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7bbb-5126-1cff-333b" name="Weapon - Aggressor" hidden="false" targetId="0a29-f332-401a-459c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ea8a-e42c-bdd9-c5a7" name="Weapon - Handgun" hidden="false" targetId="1670-92bf-8db4-83f1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d349-541e-0193-265f" name="Weapon - Claymore" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="8856-ffae-a778-14a8" name="Dark Symmetry Protection" hidden="false">
+          <description>+2 against Dark Symmetry</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="42b9-2fa5-546d-b0ac" name="Claymore" hidden="false" targetId="1026-386f-5b2f-9449" type="profile"/>
+        <infoLink id="3dd2-ffac-8e82-952e" name="Sweep Attack" hidden="false" targetId="dd0a-b478-2fbf-c787" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2176-fb4a-e683-ddac" name="Weapon - Sword" hidden="false" targetId="a823-b385-3111-9d04" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7af8-314d-037f-ae22" name="Weapon - Southpaw" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8ba3-7fca-fc8f-332d" name="Southpaw" hidden="false" targetId="4603-c285-8a6d-3c2c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a281-e879-fd2d-78eb" name="Weapon - Rocket Launcher" hidden="false" targetId="e25e-81c0-972e-6104" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="65.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9376-f4e8-d890-3cac" name="Weapon - Assailant" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d032-66d1-a728-bb8c" name="Weapon - Assailant" hidden="false" targetId="eb6f-8fff-0c08-f08b" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c3b6-6dd5-71fd-bc07" name="Weapon - Sniper Rifle" hidden="false" targetId="89bb-137d-35ab-307c" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="a65b-67d6-d239-91c7" name="Weapon Mods - Sniper Rifle" hidden="false" collective="false" import="true" targetId="6e4f-a4da-0ae0-2dfc" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e1ea-ea62-1d5a-a215" name="Weapon - Interceptor" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d99d-ef6d-2ee2-94e4" name="Weapon - Interceptor" hidden="false" targetId="a19b-f509-8e5b-72cb" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="38f5-54b7-6402-cc0e" name="Weapon - SMG" hidden="false" targetId="8b67-00e1-8a5e-4882" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="cb1e-1b1d-30a0-7cf6" name="Weapon Mods - SMG" hidden="false" collective="false" import="true" targetId="6ec0-101c-844e-8171" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d3e-511c-0813-cf57" name="Weapon - Destroyer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b4f7-f740-26a8-b1dc" name="Weapon - Destroyer" hidden="false" targetId="fa95-6c51-3dc9-ef3d" type="profile"/>
+        <infoLink id="e2fc-e736-33e1-84e7" name="Burst Fire" hidden="false" targetId="1a7d-a78a-823d-0b8b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="05f2-96e2-f5ff-870f" name="Weapon - LMG" hidden="false" targetId="c23c-1896-f82f-aa56" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1f68-11ac-1b11-9ae5" name="Weapon - Invader" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="86e0-1040-ad65-8ca3" name="Weapon - Invader" hidden="false" targetId="093c-bd01-2cec-cd0c" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0277-ff93-09ed-a649" name="Weapon - Assult Rifle" hidden="false" targetId="7654-b906-1125-03ef" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6b30-58fb-03d3-ce63" name="Weapon Mods - Assault Rifle " hidden="false" collective="false" import="true" targetId="8344-53dd-9aaf-7327" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="49d4-52d0-6239-d3d8" name="Weapon - Mandible" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fae1-6183-82d1-d340" name="Weapon - Mandible" hidden="false" targetId="70d6-41a1-b2af-3c79" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f793-bc35-d6d2-5a31" name="Weapon - Shotgun" hidden="false" targetId="fd89-0534-e483-d1fd" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a602-11a2-b355-8a58" name="Weapon - Charger" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="36b4-9b8c-65a5-b2f9" name="Weapon - Charger" hidden="false" targetId="d5bf-56da-c881-44b7" type="profile"/>
+        <infoLink id="1877-3a49-37ea-c18f" name="Burst Fire" hidden="false" targetId="1a7d-a78a-823d-0b8b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2da1-66cc-a9c9-86da" name="Weapon - HMG" hidden="false" targetId="56c4-b09c-5d24-a11d" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="0227-2a6e-130c-034c" value="39.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="c846-e047-e807-5db4" name="Imperial Armory - Heavy Weapon" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="a829-c2da-22b7-ccee" name="Weapon - Southpaw" hidden="false" collective="false" import="true" targetId="7af8-314d-037f-ae22" type="selectionEntry">
+          <costs>
+            <cost name="Points" typeId="0227-2a6e-130c-034c" value="65.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="4525-e617-8127-837a" name="Weapon - Destroyer" hidden="false" collective="false" import="true" targetId="7d3e-511c-0813-cf57" type="selectionEntry"/>
+        <entryLink id="dac0-88b5-9f99-bc7a" name="Weapon - Charger" hidden="false" collective="false" import="true" targetId="a602-11a2-b355-8a58" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3bde-541e-1cb0-6273" name="Imperial Armory - Small Weapons" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="00a5-aaca-0bdd-dc1b" name="Weapon - Agressor" hidden="false" collective="false" import="true" targetId="e75b-6424-bf42-6c9d" type="selectionEntry"/>
+        <entryLink id="da0b-70ef-a112-a489" name="Weapon - Interceptor" hidden="false" collective="false" import="true" targetId="e1ea-ea62-1d5a-a215" type="selectionEntry"/>
+        <entryLink id="3988-8a23-6ddf-d7bb" name="Weapon - Invader" hidden="false" collective="false" import="true" targetId="1f68-11ac-1b11-9ae5" type="selectionEntry"/>
+        <entryLink id="17fd-2451-d907-0719" name="Weapon - Mandible" hidden="false" collective="false" import="true" targetId="49d4-52d0-6239-d3d8" type="selectionEntry"/>
+        <entryLink id="e86e-0d04-b540-f1be" name="Weapon - Claymore" hidden="false" collective="false" import="true" targetId="d349-541e-0193-265f" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="630b-04fc-0b95-1cc4" name="Imperial Armory - Sniper Rifles" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="b936-01d4-4b4b-3374" name="Weapon - Assailant" hidden="false" collective="false" import="true" targetId="9376-f4e8-d890-3cac" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b2c8-631d-2b83-fd13" name="Imperial Type - Human Regular " hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="544a-fa85-d8c8-aa4b" name="Type - Human Regular" hidden="false" collective="false" import="true" targetId="0273-5672-56f5-3c49" type="selectionEntryGroup"/>
+        <entryLink id="34b6-a7cb-f1d6-4ad7" name="Armory - Small Weapons" hidden="false" collective="false" import="true" targetId="3bde-541e-1cb0-6273" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="57d2-5629-f723-0277" name="Imperial Type - Human Specialist " hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="61e9-eaac-b89f-fdce" name="Type - Human Specialist" hidden="false" collective="false" import="true" targetId="8e4c-bc56-d794-f40d" type="selectionEntryGroup"/>
+        <entryLink id="88bd-6adb-e0ad-45f8" name="Armory - Heavy Weapon" hidden="false" collective="false" import="true" targetId="c846-e047-e807-5db4" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="67a6-23a2-b671-6ac5" name="Imperial Type - Human Leader " hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="ecaa-a334-4fd3-35d6" name="Type - Human Leader" hidden="false" collective="false" import="true" targetId="88b6-046d-c1eb-5901" type="selectionEntryGroup"/>
+        <entryLink id="67b8-485d-8d1c-d148" name="Imperial Armory - Small Weapons" hidden="false" collective="false" import="true" targetId="3bde-541e-1cb0-6273" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5e37-9b74-b64d-3e63" name="Imperial Type - Human Heroic " hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="772b-fc7b-5313-3ae0" name="Type - Human Heroic" hidden="false" collective="false" import="true" targetId="db95-37a3-b2b4-e36b" type="selectionEntryGroup"/>
+        <entryLink id="87f2-8f3b-55b1-ff24" name="Armory - Sniper Rifles" hidden="false" collective="false" import="true" targetId="630b-04fc-0b95-1cc4" type="selectionEntryGroup"/>
+        <entryLink id="6f85-1112-1ea7-7dfd" name="Armory - Heavy Weapon" hidden="false" collective="false" import="true" targetId="c846-e047-e807-5db4" type="selectionEntryGroup"/>
+        <entryLink id="e23a-1d9e-f57d-cff3" name="Armory - Small Weapons" hidden="false" collective="false" import="true" targetId="3bde-541e-1cb0-6273" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="2dfd-7171-8a20-38ba" name="To the Last Warrior" hidden="false">
+      <description>Can panic, but will not rout.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="0a29-f332-401a-459c" name="Weapon - Aggressor" hidden="false" typeId="5055-73ca-807c-a0ab" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CR" typeId="925a-8153-2e67-44a6">3</characteristic>
+        <characteristic name="MX" typeId="a127-e318-630b-bcdc">6</characteristic>
+        <characteristic name="RM" typeId="7618-b6b6-28f3-ab38">-2</characteristic>
+        <characteristic name="DAM" typeId="7399-f45a-a2ca-46cb">10</characteristic>
+        <characteristic name="Cost" typeId="7438-0763-f3c8-7fa5">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b596-3556-0405-c5cc" name="Character - Wolfbane Commando" hidden="false" typeId="c926-389f-1474-9da1" typeName="Character">
+      <characteristics>
+        <characteristic name="CC" typeId="2ef5-90dc-2c53-b3bf">15</characteristic>
+        <characteristic name="MW" typeId="4136-ea36-cfb0-1d7d">13</characteristic>
+        <characteristic name="PW" typeId="65c8-59b6-dffc-c891">-</characteristic>
+        <characteristic name="LD" typeId="62d9-aafc-9e14-bd03">15</characteristic>
+        <characteristic name="AC" typeId="32a8-8002-2f78-19d2">3</characteristic>
+        <characteristic name="W" typeId="0d8a-7280-e0ea-b6ed">1</characteristic>
+        <characteristic name="ST" typeId="63a5-e968-fbe8-b3f7">0</characteristic>
+        <characteristic name="MV" typeId="0fb2-7685-67ec-05b7">3</characteristic>
+        <characteristic name="A" typeId="3162-c060-7c41-3b9d">24</characteristic>
+        <characteristic name="Cost" typeId="0f5e-d550-1b6e-9664">25</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c7cf-ea96-8b28-6361" name="Character - Wolfbane Chieftain" hidden="false" typeId="c926-389f-1474-9da1" typeName="Character">
+      <characteristics>
+        <characteristic name="CC" typeId="2ef5-90dc-2c53-b3bf">16</characteristic>
+        <characteristic name="MW" typeId="4136-ea36-cfb0-1d7d">14</characteristic>
+        <characteristic name="PW" typeId="65c8-59b6-dffc-c891">-</characteristic>
+        <characteristic name="LD" typeId="62d9-aafc-9e14-bd03">16</characteristic>
+        <characteristic name="AC" typeId="32a8-8002-2f78-19d2">3</characteristic>
+        <characteristic name="W" typeId="0d8a-7280-e0ea-b6ed">1</characteristic>
+        <characteristic name="ST" typeId="63a5-e968-fbe8-b3f7">2</characteristic>
+        <characteristic name="MV" typeId="0fb2-7685-67ec-05b7">3</characteristic>
+        <characteristic name="A" typeId="3162-c060-7c41-3b9d">24</characteristic>
+        <characteristic name="Cost" typeId="0f5e-d550-1b6e-9664">29</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4603-c285-8a6d-3c2c" name="Weapon - Southpaw" hidden="false" typeId="5055-73ca-807c-a0ab" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CR" typeId="925a-8153-2e67-44a6">30</characteristic>
+        <characteristic name="MX" typeId="a127-e318-630b-bcdc">60</characteristic>
+        <characteristic name="RM" typeId="7618-b6b6-28f3-ab38">-3</characteristic>
+        <characteristic name="DAM" typeId="7399-f45a-a2ca-46cb">12(x4)</characteristic>
+        <characteristic name="Cost" typeId="7438-0763-f3c8-7fa5">65</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1026-386f-5b2f-9449" name="Weapon - Claymore" hidden="false" typeId="5055-73ca-807c-a0ab" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CR" typeId="925a-8153-2e67-44a6">CC</characteristic>
+        <characteristic name="MX" typeId="a127-e318-630b-bcdc">-</characteristic>
+        <characteristic name="RM" typeId="7618-b6b6-28f3-ab38">-</characteristic>
+        <characteristic name="DAM" typeId="7399-f45a-a2ca-46cb">15</characteristic>
+        <characteristic name="Cost" typeId="7438-0763-f3c8-7fa5">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="eb6f-8fff-0c08-f08b" name="Weapon - Assailant" hidden="false" typeId="5055-73ca-807c-a0ab" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CR" typeId="925a-8153-2e67-44a6">30</characteristic>
+        <characteristic name="MX" typeId="a127-e318-630b-bcdc">60</characteristic>
+        <characteristic name="RM" typeId="7618-b6b6-28f3-ab38">-3</characteristic>
+        <characteristic name="DAM" typeId="7399-f45a-a2ca-46cb">13</characteristic>
+        <characteristic name="Cost" typeId="7438-0763-f3c8-7fa5">14</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a19b-f509-8e5b-72cb" name="Weapon - Interceptor" hidden="false" typeId="5055-73ca-807c-a0ab" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CR" typeId="925a-8153-2e67-44a6">4</characteristic>
+        <characteristic name="MX" typeId="a127-e318-630b-bcdc">8</characteristic>
+        <characteristic name="RM" typeId="7618-b6b6-28f3-ab38">-2</characteristic>
+        <characteristic name="DAM" typeId="7399-f45a-a2ca-46cb">13</characteristic>
+        <characteristic name="Cost" typeId="7438-0763-f3c8-7fa5">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fa95-6c51-3dc9-ef3d" name="Weapon - Destroyer" hidden="false" typeId="5055-73ca-807c-a0ab" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CR" typeId="925a-8153-2e67-44a6">22</characteristic>
+        <characteristic name="MX" typeId="a127-e318-630b-bcdc">45</characteristic>
+        <characteristic name="RM" typeId="7618-b6b6-28f3-ab38">-3</characteristic>
+        <characteristic name="DAM" typeId="7399-f45a-a2ca-46cb">15(x2)</characteristic>
+        <characteristic name="Cost" typeId="7438-0763-f3c8-7fa5">26</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="093c-bd01-2cec-cd0c" name="Weapon - Invader" hidden="false" typeId="5055-73ca-807c-a0ab" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CR" typeId="925a-8153-2e67-44a6">12</characteristic>
+        <characteristic name="MX" typeId="a127-e318-630b-bcdc">24</characteristic>
+        <characteristic name="RM" typeId="7618-b6b6-28f3-ab38">-4</characteristic>
+        <characteristic name="DAM" typeId="7399-f45a-a2ca-46cb">14</characteristic>
+        <characteristic name="Cost" typeId="7438-0763-f3c8-7fa5">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="70d6-41a1-b2af-3c79" name="Weapon - Mandible" hidden="false" typeId="5055-73ca-807c-a0ab" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CR" typeId="925a-8153-2e67-44a6">S</characteristic>
+        <characteristic name="MX" typeId="a127-e318-630b-bcdc">-</characteristic>
+        <characteristic name="RM" typeId="7618-b6b6-28f3-ab38">-</characteristic>
+        <characteristic name="DAM" typeId="7399-f45a-a2ca-46cb">12</characteristic>
+        <characteristic name="Cost" typeId="7438-0763-f3c8-7fa5">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d5bf-56da-c881-44b7" name="Weapon - Charger" hidden="false" typeId="5055-73ca-807c-a0ab" typeName="Weapon">
+      <characteristics>
+        <characteristic name="CR" typeId="925a-8153-2e67-44a6">18</characteristic>
+        <characteristic name="MX" typeId="a127-e318-630b-bcdc">35</characteristic>
+        <characteristic name="RM" typeId="7618-b6b6-28f3-ab38">-2</characteristic>
+        <characteristic name="DAM" typeId="7399-f45a-a2ca-46cb">16(x3)</characteristic>
+        <characteristic name="Cost" typeId="7438-0763-f3c8-7fa5">39</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3a6c-2051-8a7a-5f4c" name="Character - Regular Trooper" hidden="false" typeId="c926-389f-1474-9da1" typeName="Character">
+      <characteristics>
+        <characteristic name="CC" typeId="2ef5-90dc-2c53-b3bf">11</characteristic>
+        <characteristic name="MW" typeId="4136-ea36-cfb0-1d7d">11</characteristic>
+        <characteristic name="PW" typeId="65c8-59b6-dffc-c891">-</characteristic>
+        <characteristic name="LD" typeId="62d9-aafc-9e14-bd03">13</characteristic>
+        <characteristic name="AC" typeId="32a8-8002-2f78-19d2">3</characteristic>
+        <characteristic name="W" typeId="0d8a-7280-e0ea-b6ed">1</characteristic>
+        <characteristic name="ST" typeId="63a5-e968-fbe8-b3f7">0</characteristic>
+        <characteristic name="MV" typeId="0fb2-7685-67ec-05b7">3</characteristic>
+        <characteristic name="A" typeId="3162-c060-7c41-3b9d">24</characteristic>
+        <characteristic name="Cost" typeId="0f5e-d550-1b6e-9664">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="122a-b499-d436-c68d" name="Character - Regular Sergeant" hidden="false" typeId="c926-389f-1474-9da1" typeName="Character">
+      <characteristics>
+        <characteristic name="CC" typeId="2ef5-90dc-2c53-b3bf">13</characteristic>
+        <characteristic name="MW" typeId="4136-ea36-cfb0-1d7d">13</characteristic>
+        <characteristic name="PW" typeId="65c8-59b6-dffc-c891">-</characteristic>
+        <characteristic name="LD" typeId="62d9-aafc-9e14-bd03">13</characteristic>
+        <characteristic name="AC" typeId="32a8-8002-2f78-19d2">3</characteristic>
+        <characteristic name="W" typeId="0d8a-7280-e0ea-b6ed">1</characteristic>
+        <characteristic name="ST" typeId="63a5-e968-fbe8-b3f7">0</characteristic>
+        <characteristic name="MV" typeId="0fb2-7685-67ec-05b7">3</characteristic>
+        <characteristic name="A" typeId="3162-c060-7c41-3b9d">24</characteristic>
+        <characteristic name="Cost" typeId="0f5e-d550-1b6e-9664">17</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ef0d-a91a-0391-54d3" name="Character - Regular Captain" hidden="false" typeId="c926-389f-1474-9da1" typeName="Character">
+      <characteristics>
+        <characteristic name="CC" typeId="2ef5-90dc-2c53-b3bf">14</characteristic>
+        <characteristic name="MW" typeId="4136-ea36-cfb0-1d7d">14</characteristic>
+        <characteristic name="PW" typeId="65c8-59b6-dffc-c891">-</characteristic>
+        <characteristic name="LD" typeId="62d9-aafc-9e14-bd03">15</characteristic>
+        <characteristic name="AC" typeId="32a8-8002-2f78-19d2">4</characteristic>
+        <characteristic name="W" typeId="0d8a-7280-e0ea-b6ed">2</characteristic>
+        <characteristic name="ST" typeId="63a5-e968-fbe8-b3f7">1</characteristic>
+        <characteristic name="MV" typeId="0fb2-7685-67ec-05b7">3</characteristic>
+        <characteristic name="A" typeId="3162-c060-7c41-3b9d">24</characteristic>
+        <characteristic name="Cost" typeId="0f5e-d550-1b6e-9664">30</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ff35-623e-babc-a755" name="Character - Wolfban Hero" hidden="false" typeId="c926-389f-1474-9da1" typeName="Character">
+      <characteristics>
+        <characteristic name="CC" typeId="2ef5-90dc-2c53-b3bf">17</characteristic>
+        <characteristic name="MW" typeId="4136-ea36-cfb0-1d7d">14</characteristic>
+        <characteristic name="PW" typeId="65c8-59b6-dffc-c891">-</characteristic>
+        <characteristic name="LD" typeId="62d9-aafc-9e14-bd03">16</characteristic>
+        <characteristic name="AC" typeId="32a8-8002-2f78-19d2">4</characteristic>
+        <characteristic name="W" typeId="0d8a-7280-e0ea-b6ed">2</characteristic>
+        <characteristic name="ST" typeId="63a5-e968-fbe8-b3f7">3</characteristic>
+        <characteristic name="MV" typeId="0fb2-7685-67ec-05b7">3</characteristic>
+        <characteristic name="A" typeId="3162-c060-7c41-3b9d">24</characteristic>
+        <characteristic name="Cost" typeId="0f5e-d550-1b6e-9664">40</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="88cf-c435-3ec6-ea03" name="Character - Blood Beret" hidden="false" typeId="c926-389f-1474-9da1" typeName="Character">
+      <characteristics>
+        <characteristic name="CC" typeId="2ef5-90dc-2c53-b3bf">12</characteristic>
+        <characteristic name="MW" typeId="4136-ea36-cfb0-1d7d">14</characteristic>
+        <characteristic name="PW" typeId="65c8-59b6-dffc-c891">-</characteristic>
+        <characteristic name="LD" typeId="62d9-aafc-9e14-bd03">14</characteristic>
+        <characteristic name="AC" typeId="32a8-8002-2f78-19d2">3</characteristic>
+        <characteristic name="W" typeId="0d8a-7280-e0ea-b6ed">1</characteristic>
+        <characteristic name="ST" typeId="63a5-e968-fbe8-b3f7">0</characteristic>
+        <characteristic name="MV" typeId="0fb2-7685-67ec-05b7">3</characteristic>
+        <characteristic name="A" typeId="3162-c060-7c41-3b9d">24</characteristic>
+        <characteristic name="Cost" typeId="0f5e-d550-1b6e-9664">22</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5dde-9cb6-3752-38d0" name="Character - Blood Beret Sergeant" hidden="false" typeId="c926-389f-1474-9da1" typeName="Character">
+      <characteristics>
+        <characteristic name="CC" typeId="2ef5-90dc-2c53-b3bf">14</characteristic>
+        <characteristic name="MW" typeId="4136-ea36-cfb0-1d7d">14</characteristic>
+        <characteristic name="PW" typeId="65c8-59b6-dffc-c891">-</characteristic>
+        <characteristic name="LD" typeId="62d9-aafc-9e14-bd03">16</characteristic>
+        <characteristic name="AC" typeId="32a8-8002-2f78-19d2">3</characteristic>
+        <characteristic name="W" typeId="0d8a-7280-e0ea-b6ed">1</characteristic>
+        <characteristic name="ST" typeId="63a5-e968-fbe8-b3f7">0</characteristic>
+        <characteristic name="MV" typeId="0fb2-7685-67ec-05b7">3</characteristic>
+        <characteristic name="A" typeId="3162-c060-7c41-3b9d">26</characteristic>
+        <characteristic name="Cost" typeId="0f5e-d550-1b6e-9664">48</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="baea-c9f0-1484-7473" name="Character - Blood Beret Captain" hidden="false" typeId="c926-389f-1474-9da1" typeName="Character">
+      <characteristics>
+        <characteristic name="CC" typeId="2ef5-90dc-2c53-b3bf">15</characteristic>
+        <characteristic name="MW" typeId="4136-ea36-cfb0-1d7d">15</characteristic>
+        <characteristic name="PW" typeId="65c8-59b6-dffc-c891">-</characteristic>
+        <characteristic name="LD" typeId="62d9-aafc-9e14-bd03">16</characteristic>
+        <characteristic name="AC" typeId="32a8-8002-2f78-19d2">4</characteristic>
+        <characteristic name="W" typeId="0d8a-7280-e0ea-b6ed">3</characteristic>
+        <characteristic name="ST" typeId="63a5-e968-fbe8-b3f7">1</characteristic>
+        <characteristic name="MV" typeId="0fb2-7685-67ec-05b7">3</characteristic>
+        <characteristic name="A" typeId="3162-c060-7c41-3b9d">26</characteristic>
+        <characteristic name="Cost" typeId="0f5e-d550-1b6e-9664">48</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4e22-f77a-9a0f-8cf9" name="Character - Hedghehog Necromower" hidden="false" typeId="c926-389f-1474-9da1" typeName="Character">
+      <characteristics>
+        <characteristic name="CC" typeId="2ef5-90dc-2c53-b3bf">15</characteristic>
+        <characteristic name="MW" typeId="4136-ea36-cfb0-1d7d">15</characteristic>
+        <characteristic name="PW" typeId="65c8-59b6-dffc-c891">-</characteristic>
+        <characteristic name="LD" typeId="62d9-aafc-9e14-bd03">16</characteristic>
+        <characteristic name="AC" typeId="32a8-8002-2f78-19d2">4</characteristic>
+        <characteristic name="W" typeId="0d8a-7280-e0ea-b6ed">3</characteristic>
+        <characteristic name="ST" typeId="63a5-e968-fbe8-b3f7">-</characteristic>
+        <characteristic name="MV" typeId="0fb2-7685-67ec-05b7">8</characteristic>
+        <characteristic name="A" typeId="3162-c060-7c41-3b9d">28</characteristic>
+        <characteristic name="Cost" typeId="0f5e-d550-1b6e-9664">100</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="465f-4991-beab-54b8" name="Character - Rams Air Cavalry" hidden="false" typeId="c926-389f-1474-9da1" typeName="Character">
+      <characteristics>
+        <characteristic name="CC" typeId="2ef5-90dc-2c53-b3bf">13</characteristic>
+        <characteristic name="MW" typeId="4136-ea36-cfb0-1d7d">13</characteristic>
+        <characteristic name="PW" typeId="65c8-59b6-dffc-c891">-</characteristic>
+        <characteristic name="LD" typeId="62d9-aafc-9e14-bd03">16</characteristic>
+        <characteristic name="AC" typeId="32a8-8002-2f78-19d2">3</characteristic>
+        <characteristic name="W" typeId="0d8a-7280-e0ea-b6ed">1</characteristic>
+        <characteristic name="ST" typeId="63a5-e968-fbe8-b3f7">0</characteristic>
+        <characteristic name="MV" typeId="0fb2-7685-67ec-05b7">3/10</characteristic>
+        <characteristic name="A" typeId="3162-c060-7c41-3b9d">24</characteristic>
+        <characteristic name="Cost" typeId="0f5e-d550-1b6e-9664">100</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
