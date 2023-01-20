@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1c5b-54fa-da1b-9239" name="Imperial" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="4692-f261-c166-3dd9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1c5b-54fa-da1b-9239" name="Imperial" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="4692-f261-c166-3dd9" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="66bc-bbbe-7450-db2f" name="Wolfbane" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="ff4e-2a39-b2b7-948c" name="Wolfbane" hidden="false">
+          <description>2-4 Commando + Chieftain
+Chieftain leads the squad.
+Support groups - extract the Commandos with Heavy Weapon to separate squad (acts as squad without leader).</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="1086-0c60-21ea-02be" name="To the Last Warrior" hidden="false" targetId="2dfd-7171-8a20-38ba" type="rule"/>
+        <infoLink id="b75f-4f9f-0cf6-b2af" name="Stealth" hidden="false" targetId="fdb5-54c3-a146-9d04" type="rule"/>
+        <infoLink id="8b79-40f9-164d-b358" name="Close Combat Training" hidden="false" targetId="8d11-f34f-d760-a69b" type="rule"/>
+        <infoLink id="05db-cca3-1911-e000" name="Commando Training" hidden="false" targetId="f615-945c-e422-d0ac" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fb43-917f-f217-0372" name="Squad" hidden="false" targetId="782e-31fb-f270-f003" primary="true"/>
@@ -17,7 +27,7 @@
             <categoryLink id="7893-cf20-c3c3-7b45" name="Squad Soldier" hidden="false" targetId="ea04-b947-9cb3-9fd7" primary="false"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink id="85dd-dede-bacc-211b" name="Type - Imperial Human Regular " hidden="false" collective="false" import="true" targetId="b2c8-631d-2b83-fd13" type="selectionEntryGroup"/>
+            <entryLink id="85dd-dede-bacc-211b" name="Imperial Type - Character Regular " hidden="false" collective="false" import="true" targetId="b2c8-631d-2b83-fd13" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Points" typeId="0227-2a6e-130c-034c" value="25.0"/>
@@ -25,7 +35,7 @@
         </selectionEntry>
         <selectionEntry id="5793-cd87-7254-563e" name="Chieftain" hidden="false" collective="false" import="true" type="model">
           <infoLinks>
-            <infoLink id="32bc-76bd-b0c9-5778" name="Wolfbane Chieftain" hidden="false" targetId="c7cf-ea96-8b28-6361" type="profile"/>
+            <infoLink id="32bc-76bd-b0c9-5778" name="Character - Wolfbane Chieftain" hidden="false" targetId="c7cf-ea96-8b28-6361" type="profile"/>
           </infoLinks>
           <categoryLinks>
             <categoryLink id="72a2-149c-ae9f-e722" name="Squad Leader" hidden="false" targetId="41ca-86a2-9c9a-7455" primary="false"/>
@@ -37,7 +47,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba6b-f789-1538-0013" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="cd01-9189-f925-fb53" name="Character Equipment" hidden="false" collective="false" import="true" targetId="4479-41ad-26d3-7ae3" type="selectionEntryGroup"/>
+            <entryLink id="d1ab-9956-a227-4075" name="Imperial Type - Character Leader " hidden="false" collective="false" import="true" targetId="67a6-23a2-b671-6ac5" type="selectionEntryGroup"/>
+            <entryLink id="b443-a759-d09d-578b" name="Special Equipment - Leader" hidden="false" collective="false" import="true" targetId="87f1-b67b-cb68-368d" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Points" typeId="0227-2a6e-130c-034c" value="29.0"/>
@@ -51,13 +62,16 @@
             <categoryLink id="4b64-903e-efa3-d2d5" name="Squad Heavy Weapon" hidden="false" targetId="f8c1-52a9-c81e-0328" primary="false"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink id="35fd-0a1a-0238-ef89" name="Type - Imperial Human Specialist " hidden="false" collective="false" import="true" targetId="57d2-5629-f723-0277" type="selectionEntryGroup"/>
+            <entryLink id="35fd-0a1a-0238-ef89" name="Imperial Type - Character Specialist " hidden="false" collective="false" import="true" targetId="57d2-5629-f723-0277" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Points" typeId="0227-2a6e-130c-034c" value="29.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="99b9-1e05-6fc3-85ea" name="Type - Squad" hidden="false" collective="false" import="true" targetId="726e-f502-9603-a72b" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="0227-2a6e-130c-034c" value="0.0"/>
       </costs>
@@ -66,6 +80,10 @@
       <rules>
         <rule id="d302-fe6e-c459-e98b" name="Regular Squad" hidden="false">
           <description>Up to 2 Troopers with Heavy Weapon</description>
+        </rule>
+        <rule id="88d4-2693-19f1-68bd" name="Regular" hidden="false">
+          <description>6-8 Troopers + Seargant
+Up to 2 Troppers with Heavy Weapon</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -108,13 +126,17 @@
             <categoryLink id="803b-b8e7-9801-bc90" name="Squad Leader" hidden="false" targetId="41ca-86a2-9c9a-7455" primary="false"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink id="4b69-8c01-7a77-0de8" name="Type - Human Leader Imperial" hidden="false" collective="false" import="true" targetId="67a6-23a2-b671-6ac5" type="selectionEntryGroup"/>
+            <entryLink id="4b69-8c01-7a77-0de8" name="Imperial Type - Human Leader " hidden="false" collective="false" import="true" targetId="67a6-23a2-b671-6ac5" type="selectionEntryGroup"/>
+            <entryLink id="a521-91d4-4421-439f" name="Special Equipment - Leader" hidden="false" collective="false" import="true" targetId="87f1-b67b-cb68-368d" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Points" typeId="0227-2a6e-130c-034c" value="17.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="a81b-b6ad-7af8-31c7" name="Type - Squad" hidden="false" collective="false" import="true" targetId="726e-f502-9603-a72b" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="0227-2a6e-130c-034c" value="0.0"/>
       </costs>
@@ -137,18 +159,33 @@
       <infoLinks>
         <infoLink id="4ca5-3beb-2c93-a599" name="To the Last Warrior" hidden="false" targetId="2dfd-7171-8a20-38ba" type="rule"/>
         <infoLink id="2b4e-2e81-14d2-3330" name="Character - Wolfban Hero" hidden="false" targetId="ff35-623e-babc-a755" type="profile"/>
+        <infoLink id="e44a-cc60-96c4-c9b0" name="Close Combat Training" hidden="false" targetId="8d11-f34f-d760-a69b" type="rule"/>
+        <infoLink id="82e0-58d2-740f-a4d5" name="Commando Training" hidden="false" targetId="f615-945c-e422-d0ac" type="rule"/>
+        <infoLink id="508a-3c40-b672-e0f8" name="Stealth" hidden="false" targetId="fdb5-54c3-a146-9d04" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c1a2-4053-5a3a-9428" name="New CategoryLink" hidden="false" targetId="8e64-f060-1634-59d7" primary="true"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="23cf-6b29-1770-9958" name="Imperial Type - Human Heroic " hidden="false" collective="false" import="true" targetId="5e37-9b74-b64d-3e63" type="selectionEntryGroup"/>
+        <entryLink id="9b8d-c364-629c-d6e3" name="Special Equipment - Heroic" hidden="false" collective="false" import="true" targetId="831e-35de-c8b3-00d2" type="selectionEntryGroup"/>
+        <entryLink id="43cf-cb1e-c2dc-8dc9" name="Weapon - Claymore" hidden="false" collective="false" import="true" targetId="d349-541e-0193-265f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b99-2b69-7be7-ae3e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5913-b912-9f39-8df4" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="0227-2a6e-130c-034c" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6ca-6f89-d20d-ebec" name="Blood Beret" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="1362-776c-499a-6e72" name="Blood Beret" hidden="false">
+          <description>3-5 Soldiers + Sergeant</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="1a0f-3197-3a94-5fc6" name="Jungle Training" hidden="false" targetId="1d1d-1fd7-ef17-49c9" type="rule"/>
         <infoLink id="5f60-ccc6-21e2-9902" name="To the Last Warrior" hidden="false" targetId="2dfd-7171-8a20-38ba" type="rule"/>
@@ -194,18 +231,27 @@
             <categoryLink id="ca64-0073-ea1b-f709" name="Squad Leader" hidden="false" targetId="41ca-86a2-9c9a-7455" primary="false"/>
           </categoryLinks>
           <entryLinks>
-            <entryLink id="df2a-c87d-c111-20c0" name="Type - Human Leader Imperial" hidden="false" collective="false" import="true" targetId="67a6-23a2-b671-6ac5" type="selectionEntryGroup"/>
+            <entryLink id="df2a-c87d-c111-20c0" name="Imperial Type - Character Leader " hidden="false" collective="false" import="true" targetId="67a6-23a2-b671-6ac5" type="selectionEntryGroup"/>
+            <entryLink id="8b97-7c75-8fe7-e858" name="Special Equipment - Leader" hidden="false" collective="false" import="true" targetId="87f1-b67b-cb68-368d" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Points" typeId="0227-2a6e-130c-034c" value="30.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="5a63-b600-989d-962e" name="Type - Squad" hidden="false" collective="false" import="true" targetId="726e-f502-9603-a72b" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="0227-2a6e-130c-034c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e2b9-e403-d335-33f8" name="Blood Beret Captain" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="a0c2-a3fd-d17b-6ff9" name="Blood Beret Captain" hidden="false">
+          <description>Only when at least 1 Blood Beret squad</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="ccdf-fe15-be1e-b941" name="Jungle Training" hidden="false" targetId="1d1d-1fd7-ef17-49c9" type="rule"/>
         <infoLink id="47eb-a0cf-2241-45ad" name="To the Last Warrior" hidden="false" targetId="2dfd-7171-8a20-38ba" type="rule"/>
@@ -216,6 +262,7 @@
       </categoryLinks>
       <entryLinks>
         <entryLink id="ccbf-66f0-4ea5-8079" name="Imperial Type - Human Heroic " hidden="false" collective="false" import="true" targetId="5e37-9b74-b64d-3e63" type="selectionEntryGroup"/>
+        <entryLink id="115c-b65e-0501-5c4b" name="Special Equipment - Heroic" hidden="false" collective="false" import="true" targetId="831e-35de-c8b3-00d2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="0227-2a6e-130c-034c" value="0.0"/>
@@ -239,6 +286,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c074-bac6-b35a-040c" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="c1f0-fe68-e8ed-b3ad" name="Special Equipment - Heroic" hidden="false" collective="false" import="true" targetId="831e-35de-c8b3-00d2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="0227-2a6e-130c-034c" value="100.0"/>
@@ -269,6 +317,7 @@ On crash both player roll 1D20, winner moves Barracuda 10inch from original posi
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee59-570e-0785-3521" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="8a18-3e50-b7b7-8507" name="Special Equipment - Heroic" hidden="false" collective="false" import="true" targetId="831e-35de-c8b3-00d2" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="0227-2a6e-130c-034c" value="0.0"/>
@@ -416,7 +465,6 @@ On crash both player roll 1D20, winner moves Barracuda 10inch from original posi
         <entryLink id="da0b-70ef-a112-a489" name="Weapon - Interceptor" hidden="false" collective="false" import="true" targetId="e1ea-ea62-1d5a-a215" type="selectionEntry"/>
         <entryLink id="3988-8a23-6ddf-d7bb" name="Weapon - Invader" hidden="false" collective="false" import="true" targetId="1f68-11ac-1b11-9ae5" type="selectionEntry"/>
         <entryLink id="17fd-2451-d907-0719" name="Weapon - Mandible" hidden="false" collective="false" import="true" targetId="49d4-52d0-6239-d3d8" type="selectionEntry"/>
-        <entryLink id="e86e-0d04-b540-f1be" name="Weapon - Claymore" hidden="false" collective="false" import="true" targetId="d349-541e-0193-265f" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="630b-04fc-0b95-1cc4" name="Imperial Armory - Sniper Rifles" hidden="false" collective="false" import="true">
@@ -424,25 +472,25 @@ On crash both player roll 1D20, winner moves Barracuda 10inch from original posi
         <entryLink id="b936-01d4-4b4b-3374" name="Weapon - Assailant" hidden="false" collective="false" import="true" targetId="9376-f4e8-d890-3cac" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="b2c8-631d-2b83-fd13" name="Imperial Type - Human Regular " hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="b2c8-631d-2b83-fd13" name="Imperial Type - Character Regular " hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="544a-fa85-d8c8-aa4b" name="Type - Human Regular" hidden="false" collective="false" import="true" targetId="0273-5672-56f5-3c49" type="selectionEntryGroup"/>
         <entryLink id="34b6-a7cb-f1d6-4ad7" name="Armory - Small Weapons" hidden="false" collective="false" import="true" targetId="3bde-541e-1cb0-6273" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="57d2-5629-f723-0277" name="Imperial Type - Human Specialist " hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="57d2-5629-f723-0277" name="Imperial Type - Character Specialist " hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="61e9-eaac-b89f-fdce" name="Type - Human Specialist" hidden="false" collective="false" import="true" targetId="8e4c-bc56-d794-f40d" type="selectionEntryGroup"/>
         <entryLink id="88bd-6adb-e0ad-45f8" name="Armory - Heavy Weapon" hidden="false" collective="false" import="true" targetId="c846-e047-e807-5db4" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="67a6-23a2-b671-6ac5" name="Imperial Type - Human Leader " hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="67a6-23a2-b671-6ac5" name="Imperial Type - Character Leader " hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="ecaa-a334-4fd3-35d6" name="Type - Human Leader" hidden="false" collective="false" import="true" targetId="88b6-046d-c1eb-5901" type="selectionEntryGroup"/>
         <entryLink id="67b8-485d-8d1c-d148" name="Imperial Armory - Small Weapons" hidden="false" collective="false" import="true" targetId="3bde-541e-1cb0-6273" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="5e37-9b74-b64d-3e63" name="Imperial Type - Human Heroic " hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="5e37-9b74-b64d-3e63" name="Imperial Type - Character Heroic " hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="772b-fc7b-5313-3ae0" name="Type - Human Heroic" hidden="false" collective="false" import="true" targetId="db95-37a3-b2b4-e36b" type="selectionEntryGroup"/>
         <entryLink id="87f2-8f3b-55b1-ff24" name="Armory - Sniper Rifles" hidden="false" collective="false" import="true" targetId="630b-04fc-0b95-1cc4" type="selectionEntryGroup"/>
